@@ -18,6 +18,11 @@ export interface GameEuResult {
   price: { regular: number; discount: number };
 }
        
+
+
+
+
+
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
