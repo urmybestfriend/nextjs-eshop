@@ -17,7 +17,7 @@ export interface GameEuResult {
   discountPercentage: number;
   price: { regular: number; discount: number };
 }
-
+       
 export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
