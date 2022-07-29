@@ -15,6 +15,12 @@ const meta = {
     "Nintendo Switch e-Shop clone-ish website built with Next.js and Tailwind CSS.",
 };
 
+const delta = {
+  title: "Next.js e-Shop",
+  description:
+    "Nintendo Switch e-Shop clone-ish website built with Next.js and Tailwind CSS.",
+}; 
+
 function EshopApp({ Component, pageProps }: AppProps) {
   return (
     <>
